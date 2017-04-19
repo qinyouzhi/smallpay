@@ -1,0 +1,95 @@
+
+.redDot {
+  width: 6px;
+  height: 6px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block; }
+
+.header {
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99; }
+  .header #sideNav-switcher, .header #sideNav-top-switcher {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    background-color: #f0f3f4;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    cursor: pointer; }
+    .header #sideNav-switcher i, .header #sideNav-top-switcher i {
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      display: inline-block; }
+    .header #sideNav-switcher:hover, .header #sideNav-top-switcher:hover {
+      color: #4d4d4d;
+      background-color: #d3dbde; }
+  .header #sideNav-top-switcher {
+    right: -120px;
+    background-color: #fff; }
+    .header #sideNav-top-switcher i {
+      font-size: 20px;
+      color: #666; }
+    .header #sideNav-top-switcher:hover {
+      background-color: #fff; }
+      .header #sideNav-top-switcher:hover i {
+        color: #1a1a1a; }
+  .header #sideNav-switcher {
+    right: -60px; }
+    .header #sideNav-switcher .fa-dedent {
+      display: inline-block; }
+    .header #sideNav-switcher .fa-indent {
+      display: none; }
+  .header .logo {
+    width: 240px;
+    height: 60px; }
+    .header .logo h1 {
+      font-size: 18px;
+      font-style: normal;
+      text-align: center; }
+  .header .notice, .header .login, .header .calendar {
+    height: 60px;
+    width: 60px;
+    background-color: #f0f3f4; }
+    .header .notice a, .header .login a, .header .calendar a {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #666;
+      text-align: center;
+      left: 18px; }
+      .header .notice a i, .header .login a i, .header .calendar a i {
+        line-height: 24px;
+        color: #fff; }
+      .header .notice a .redDot, .header .login a .redDot, .header .calendar a .redDot {
+        position: absolute;
+        right: 5px;
+        top: 5px; }
+      .header .notice a:hover, .header .notice a:focus, .header .login a:hover, .header .login a:focus, .header .calendar a:hover, .header .calendar a:focus {
+        background-color: #333333; }
+  .header .login {
+    background-color: #fff; }
+    .header .login a {
+      background-color: #ccc; }
+      .header .login a:hover, .header .login a:focus {
+        background-color: #999999; }
+  .header .calendar {
+    background-color: #fff; }
+    .header .calendar a {
+      background-color: #fff; }
+      .header .calendar a i {
+        color: #aaa;
+        font-size: 20px; }
+      .header .calendar a:hover, .header .calendar a:focus {
+        background-color: #fff; }
+        .header .calendar a:hover i, .header .calendar a:focus i {
+          color: #333; }

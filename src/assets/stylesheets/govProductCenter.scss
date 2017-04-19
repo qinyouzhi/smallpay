@@ -1,0 +1,127 @@
+@import "base.scss";
+@import "modulars.scss";
+.section-title{
+  border: 1px solid #dee5e7;
+}
+.xtt-table{
+  border-top: none;
+  margin: 0;
+
+  >.wrapper{
+    td{
+      border-right: 1px solid #dee5e7;
+    }
+    td:last-child{
+      border-right: none;
+    }
+    padding: 0;
+    .checkbox{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 5px;
+    }
+  }
+  .sign-select {
+    width: 40%;
+    padding-right: 34px;
+    position: relative;
+    select{
+      border-radius: 0px !important;
+    }
+    button{
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 34px;
+      width: 34px;
+      background-color: #fff;
+      outline: 0 !important;
+      border: 1px solid #cfdadd;
+    }
+  }
+  .sign-file{
+    width: 70%;
+    padding-right: 90px;
+    position: relative;
+    input{
+      border-radius: 0 !important;
+    }
+    button{
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 34px;
+      width: 90px;
+      line-height: 34px;
+      background-color: #fff;
+      outline: 0 !important;
+      border: 1px solid #cfdadd;
+      border-left: 0;
+    }
+
+
+   }
+  .change-w{
+    width: 100%;
+  }
+  .zj-radio{
+    li{
+      margin:auto 20px;
+      float: left;
+      input[type=radio]{
+        margin-right: 10px;
+      }
+    }
+  }
+  .text-l{
+     text-align: left !important;
+  }
+  .td-code{
+    margin-top: 20px;
+    text-align: center;
+    .btn-keep,.btn-success{
+      width: 90px;
+    }
+  }
+
+  .table-footer{
+    position: relative;
+    .make-code{
+      padding-top: 20px;
+      background-color: #fff;
+      border: 1px solid #e3e3e3;
+      width: 40%;
+      box-shadow: 0 0 15px 1px #cbcbcb;
+      position: absolute;
+      top: -300px;
+      left: 240px;
+      display: none;
+      //background: green;
+      div{
+        margin: 20px auto;
+        text-align: center;
+      }
+      input{
+        text-align: center;
+      }
+      .code{
+        width: 100%;
+        margin: 10px auto;
+      }
+
+    }
+  }
+  .noRadius{
+    overflow: hidden;
+    position: relative;
+    border-right: none;
+    select{
+      position: absolute;
+      left: -2px;
+      top: -2px;
+      width: 102%;
+      height: 111%;
+    }
+  }
+
+}

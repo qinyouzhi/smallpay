@@ -1,0 +1,126 @@
+.formbox {
+    min-height: 1px;
+    min-height: 300px;
+    margin-top: 80px; }
+.formbox form {
+    margin-top: 30px; }
+.formbox .inputrow.firstrow .input {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+.formbox .inputrow.lastrow .input {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: -1px;
+}
+.formbox .checkbox {
+    margin-top: 15px; }
+.formbox .checkbox label {
+    color: #848484; }
+.formbox .input {
+    padding: 8px 10px;
+    border: 1px solid #E7ECEE;
+    width: 100%;
+    outline: none; }
+.formbox .input:focus {
+    border-color: #c4dfec; }
+.formbox .nav-links {
+    margin-top: 15px; }
+.formbox .nav-links a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #848484; }
+.formbox .btn-signin {
+    background-color: #1093F5;
+    border: 1px solid #1093F5;
+    color: #fff;
+    margin-top: 15px; }
+.formbox .btn-signin:active, .formbox .btn-signin:hover, .formbox .btn-signin:focus, .formbox .btn-signin:active:hover {
+    background-color: #1b98f7;
+    border: 1px solid #1b98f7; }
+.formbox .btn-signup {
+    background-color: #fff;
+    border: 1px solid #e7ecee;
+    color: #fff;
+    margin-top: 15px;
+    color: #666; }
+.formbox .btn-signup:active, .formbox .btn-signup:hover, .formbox .btn-signup:focus, .formbox .btn-signup:active:hover {
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8; }
+
+.pagetitle {
+    text-align: center; }
+
+.formbox1 {
+    min-height: 1px;
+    min-height: 300px;
+    margin-top: 80px; }
+.formbox1 .avater {
+    display: block;
+    width: 100px;
+    margin: auto; }
+.formbox1 form {
+    margin-top: 30px;
+    padding: 0 20px; }
+.formbox1 hr {
+    border: 0;
+    background-color: #f0f0f0;
+    height: 1px;
+    margin: auto; }
+.formbox1 .checkbox {
+    margin-top: 15px; }
+.formbox1 .checkbox label {
+    color: #848484; }
+.formbox1 .input {
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: none; }
+.formbox1 .input-group-addon {
+    color: #BCBCBC;
+    background-color: transparent;
+    border: none; }
+.formbox1 .btn-link {
+    margin-top: 20px;
+    color: #DFDFE0; }
+.formbox1 .nav-links {
+    margin-top: 15px; }
+.formbox1 .nav-links a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #848484; }
+.formbox1 .btn-signin {
+    background-color: #1093F5;
+    border: 1px solid #1093F5;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 34px; }
+.formbox1 .btn-signin:active, .formbox1 .btn-signin:hover, .formbox1 .btn-signin:focus, .formbox1 .btn-signin:active:hover {
+    background-color: #1b98f7;
+    border: 1px solid #1b98f7; }
+.formbox1 .btn-signup {
+    background-color: transparent;
+    border: none;
+    color: #60636C;
+    margin-top: 15px; }
+.formbox1 .btn-signup:active, .formbox1 .btn-signup:hover, .formbox1 .btn-signup:focus, .formbox1 .btn-signup:active:hover {
+    background: none;
+    background-color: transparent; }
+
+@media (min-width: 768px) {
+    .formbox {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto; } }
+
+@media (max-width: 767px) {
+    body {
+        background-image: url('/images/siginbg.png');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat; } }

@@ -1,0 +1,61 @@
+<div class="clearfix header box-shadow-dark mg-0">
+    <div class="pull-left position-relative logo">
+        <h1 class="vertical-center"><a href="/" class="display-block"> 文件管理平台</a></h1>
+        <span #sideNav class="sideNav-show" id="sideNav-switcher" (click)="onSideNav(sideNav)"><i class="fa fa-dedent"></i><i class="fa fa-indent"></i></span>
+        <span id="sideNav-top-switcher" class="sideNav-top-show hidden-xs"><i class="iconfont icon-user"></i></span>
+    </div>
+    <div class="pull-right ">
+        <!--<div class="pull-right login position-relative">-->
+            <!--<a href="/login" class=" vertical-center">-->
+                <!--<i class="iconfont icon-zhuce"></i>-->
+            <!--</a>-->
+        <!--</div>-->
+        <div class="pull-right notice position-relative" id="notice-switcher" #notice (click)="onNotice(notice)">
+            <a href="#" class="position-relative vertical-center">
+                <i class="iconfont icon-tongzhi1"></i>
+                <span class="redDot"></span>
+            </a>
+        </div>
+
+        <div class="pull-right calendar position-relative hidden-xs" #calendar (click)="onCalendar(calendar,grid)">
+            <a href="javascript:;" class="vertical-center">
+                <i class="iconfont icon-jiugongge-copy"></i>
+            </a>
+        </div>
+    </div>
+
+</div>
+<div class="jiugongge animated flipInX row hide box-shadow-dark" #grid>
+    <a class="item col-xs-4" routerLink="/note">
+        <i class="iconfont icon-yijianfankui" style="color: #97a4ac;"></i>
+        <span class="tag">便签</span>
+    </a>
+    <a class="item col-xs-4" routerLink="/calendar">
+       <i class="iconfont icon-rili" style="color: #f15050;"></i>
+        <span class="tag">日历</span>
+    </a>
+    <a class="item col-xs-4" href="#">
+        <i class="iconfont icon-kefu" style="color: #30b8e8;"></i>
+        <span class="tag">客服</span>
+    </a>
+    <a class="item col-xs-4" href="#">
+       <i class="iconfont icon-zhangdan" style="color: #31c14e;"></i>
+        <span class="tag">账单</span>
+    </a>
+    <a class="item col-xs-4" href="#">
+       <i class="iconfont icon-facebook" style="color: #37589b;"></i>
+        <span class="tag">Facebook</span>
+    </a>
+    <a class="item col-xs-4" href="#" >
+       <i class="iconfont icon-weibo" style="color: #ef5259;"></i>
+        <span class="tag">微博</span>
+    </a>
+    <a class="item col-xs-4" href="#" >
+        <i class="iconfont icon-weixin2" style="color: #30c154;"></i>
+        <span class="tag">微信</span>
+    </a>
+    <a class="item col-xs-4" href="#" >
+        <i class="iconfont icon-yuyan" style="color: #0091fa;"></i>
+        <span class="tag">语言</span>
+    </a>
+</div>
