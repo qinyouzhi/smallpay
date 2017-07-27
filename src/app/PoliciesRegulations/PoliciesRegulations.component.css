@@ -1,0 +1,35 @@
+#main-content{
+  height:100%;
+}
+.clearPadding{
+  padding: 0;
+}
+.clearMargin{
+  margin: 0;
+}
+.row h4{
+  font-size: 20px;
+  margin-top: 12px;
+}
+.box{
+  height: 100%;
+  background: #fff;
+  margin-top: 20px;
+}
+.box ul li{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  font-size: 14px;
+}
+.box ul li p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box ul li span{
+  text-align: center;
+}
+.box ul li:nth-of-type(even){
+  background: #fbfcfe;
+}

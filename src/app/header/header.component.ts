@@ -16,7 +16,9 @@ export class HeaderComponent implements OnInit {
   onSideNav (sideNav: any) {
     const body = document.getElementsByTagName('body')[0]
     let windowW = window.innerWidth
-    if (body.className != 'hide-sidebar') {
+    if(body.className == 'notice-show') {
+      body.className = 'hide-sidebar'
+    }else if (body.className != 'hide-sidebar') {
       body.className = 'hide-sidebar'
     } else {
       body.className = ''
@@ -32,10 +34,14 @@ export class HeaderComponent implements OnInit {
     event.preventDefault()
     const body = document.getElementsByTagName('body')[0]
     let windowW = window.innerWidth
-    if (body.className != 'notice-show') {
-      body.className = 'notice-show'
-    } else {
+    if(body.className == 'notice-show'){
       body.className = ''
+    } else if(body.className == ''){
+      body.className = 'notice-show'
+    } else if (body.className != 'hide-sidebar notice-show') {
+      body.className = 'hide-sidebar notice-show'
+    } else {
+      body.className = 'hide-sidebar'
     }
   }
   onCalendar (calender: any, grid: any){

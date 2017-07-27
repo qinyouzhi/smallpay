@@ -1,144 +1,15 @@
 <div id="sideNav">
-
-
-  <div class="wrapper ">
-    <div class="top">
-      <div class="userImg text-center">
-        <span class="imgWrapper">
-            <img src="../../assets/images/touxiang.jpg" alt="">
-        </span>
-        <p class="text-center padding-bottom-10" style="">
-          <span>234546566@qq.com</span>
-          <i class="iconfont icon-arrow-down-o" id="set-switcher" style="cursor: pointer;"></i>
-          <br>
-          <span>市工信部</span>
-        </p>
-
-      </div>
-      <div class="zhankai  box-shadow-dark hide" style="padding: 10px;">
-
-        <p class="text-center padding-15" style="padding: 15px;border-bottom: 1px dotted #dedede;"><img src="../../assets/images/code.png" alt="" width="40"></p>
-        <a href="#" class="padding-left-20 display-block" style="line-height: 30px; margin: 10px 0;"><i
-                            class="iconfont icon-shezhi margin-right-10"></i>个人设置
-                </a>
-        <a href="#" class="padding-left-20 display-block" style="line-height: 30px;margin: 10px 0;"><i
-                            class="iconfont icon-exit margin-right-10"></i>退出登录
-                </a>
-      </div>
+  <div class="nav">
+    <div class="row">
+      <ul class="col-md-12 navlists clearPadding">
+        <li class="text-center"><i class="iconfont icon-yunxiangmugongdanweixintubiao-"></i><a routerLink="map">规划设计</a></li>
+        <li class="text-center"><i class="iconfont icon-guanli"></i><a routerLink="ParkingsManagement">停车场管理</a></li>
+        <li class="text-center"><i class="iconfont icon-tingchewei"></i><a routerLink="ParkingManagement">停车位管理</a></li>
+        <li class="text-center"><i class="iconfont icon-gongzuorenyuan"></i><a routerLink="PersonnelManagement">工作人员管理</a></li>
+        <li class="text-center"><i class="iconfont icon-guanggao"></i><a routerLink="AdvertisingManagement">广告管理</a></li>
+        <li class="text-center"><i class="iconfont icon-shourutongji"></i><a routerLink="IncomeStatistics">收入统计</a></li>
+        <li class="text-center"><i class="iconfont icon-zhengce"></i><a routerLink="PoliciesRegulations">政策法规</a></li>
+      </ul>
     </div>
-    <div class="row margin-top-15">
-      <div class="">
-        <div class="panel-group" id="accordion">
-          <div class="panel panel-default hide">
-            <div class="panel-heading">
-              <h4 class="panel-title position-relative">
-                <span class="bar bar2"></span>
-                <a>
-                  <i class="iconfont icon-lunwen margin-right-10"></i>文件概览
-                </a>
-              </h4>
-            </div>
-            <div class="panel-collapse animated fadeIn">
-
-            </div>
-          </div>
-          <div class="panel panel-default active">
-            <div class="panel-heading">
-              <h4 class="panel-title position-relative">
-                <span class="bar bar5"></span>
-                <a class="collapsed">
-                  <i class="iconfont icon-shangpin margin-right-10"></i>证照中心
-                  <i class="iconfont icon-yousanjiao pull-right"></i>
-                </a>
-              </h4>
-            </div>
-            <div class="panel-collapse animated fadeIn">
-              <div class="panel-body">
-                <ul class="sideNav-second">
-                  <li class="hide"><a href="#">我的文件 </a></li>
-                  <li class="show-sideNav-third">
-                    <a href="#" class="active">证照管理<i class="iconfont icon-arrow-right"></i> </a>
-                    <ul class="sideNav-third animated fadeInLeft">
-
-                      <li><a routerLink="/ready" class="active" myTarget="#daibanfawen">证照样式设计</a></li>
-                      <li><a routerLink="/licence_style" myTarget="#fawennigao">证照样式库</a></li>
-                      <li><a routerLink="/licence_change" myTarget="#wodefawen">证照变更</a></li>
-                      <li><a routerLink="/licence_change" myTarget="#fawenchaxun">证照年检</a></li>
-                      <li><a routerLink="/licence_change" myTarget="#fawenjiankong">证照挂失</a></li>
-                      <li class="hide"><a href="#" myTarget="#guidangguanli">归档管理</a></li>
-                    </ul>
-                  </li>
-                  <li class="hide">
-                    <a href="#">收文管理<i class="iconfont icon-arrow-right"></i>
-
-                                        </a>
-                    <ul class="sideNav-third animated fadeInLeft">
-
-                      <li><a href="#">待办收文</a></li>
-                      <li><a href="#">收文登记</a></li>
-                      <li><a href="#">已办收文</a></li>
-                      <li><a href="#">我的收文</a></li>
-                      <li><a href="#">收文查询</a></li>
-                      <li><a href="#">收文监控</a></li>
-                      <li><a href="#">归档管理</a></li>
-                    </ul>
-
-                  </li>
-                  <li class="hide"><a href="#">公文交换 <i class="iconfont icon-arrow-right"></i></a>
-                    <ul class="sideNav-third animated fadeInLeft">
-
-                      <li><a href="#">发送公文</a></li>
-                      <li><a href="#">接受公文</a></li>
-
-                    </ul>
-                  </li>
-                  <li class="hide"><a href="#">文件查询</a></li>
-                  <li class="hide"><a href="#">文件共享 </a></li>
-                  <li class="hide"><a href="#">文件监控 </a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default hide">
-            <div class="panel-heading">
-              <h4 class="panel-title  position-relative">
-                <span class="bar bar3"></span>
-                <a>
-                  <i class="iconfont icon-biangeng margin-right-10"></i>工作流程
-                </a>
-              </h4>
-            </div>
-            <div class="panel-collapse animated fadeIn">
-
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading hide">
-              <h4 class="panel-title position-relative">
-                <span class="bar bar6"></span>
-                <a class="collapsed">
-                  <i class="iconfont icon-bijiben margin-right-10"></i>档案管理
-                  <i class="iconfont icon-yousanjiao pull-right"></i>
-                </a>
-              </h4>
-            </div>
-            <div class="panel-collapse animated fadeIn">
-              <div class="panel-body">
-                <ul class="sideNav-second">
-                  <li><a href="#"> 浏览卷库 </a></li>
-
-                  <li><a href="#">新建卷库 </a></li>
-                  <li><a href="#">卷库管理 </a></li>
-                  <li><a href="#">卷库查阅 </a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
   </div>
-
 </div>

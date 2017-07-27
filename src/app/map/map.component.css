@@ -1,0 +1,19 @@
+.row h4{
+  margin-top: 12px;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.map img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media screen and (max-width: 414px){
+  .row h4{
+    margin-top: 12px;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}

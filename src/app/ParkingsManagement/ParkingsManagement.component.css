@@ -1,0 +1,89 @@
+.clearPadding{
+  padding: 0;
+}
+.clearMargin{
+  margin: 0;
+}
+.row h4{
+  font-size: 20px;
+  margin-top: 12px;
+}
+.parking{
+  margin: 18px 0;
+}
+.tab .active{
+  background: #279680;
+  color: #fff;
+}
+.tab{
+  margin-bottom: 10px;
+}
+.tab span{
+  width: 54px;
+  height:30px;
+  border:1px solid #bdbdbd;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 30px;
+  display: inline-block;
+  font-size: 12px;
+  color:#bdbdbd ;
+  margin-right: 10px;
+}
+.text{
+  height:34px;
+  border-radius: 17px;
+  background: #fff;
+  position: relative;
+}
+.text input{
+  width: 78%;
+  height:24px;
+  border: none;
+  outline: none;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 5px;
+  margin: auto 0;
+  color: #c6c6c6;
+  font-size: 14px;
+}
+.text input::-webkit-input-placeholder {
+  color: #c6c6c6;
+  font-size: 14px;
+}
+.text .seach{
+  position: absolute;
+  line-height: 34px;
+  left: 8%;
+  margin: auto 0;
+  color: #c6c6c6;
+}
+
+.more{
+  position: absolute;
+  right: 6px;
+  top: 19px;
+  color: #bcbcbc;
+}
+.stopCar{
+  margin-bottom: 20px;
+}
+.stopCar img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.title{
+  height: 80px;
+  background: #fff;
+  padding-top: 24px;
+  position: relative;
+}
+.title p{
+  font-size:12px;
+}
+.title p:nth-of-type(2){
+  color: #afafaf;
+}
